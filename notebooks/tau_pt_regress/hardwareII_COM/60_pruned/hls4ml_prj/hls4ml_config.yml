@@ -1,0 +1,159 @@
+Backend: Vitis
+ClockPeriod: 2.8
+HLSConfig:
+  LayerName:
+    Dense_1:
+      Precision:
+        bias: fixed<9,3>
+        result: fixed<16,6>
+        weight: fixed<9,3>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_1_linear:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_2:
+      Precision:
+        bias: fixed<9,3>
+        result: fixed<16,6>
+        weight: fixed<9,3>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_2_linear:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_3:
+      Precision:
+        bias: fixed<9,3>
+        result: fixed<16,6>
+        weight: fixed<9,3>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_3_linear:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_4:
+      Precision:
+        bias: fixed<9,3>
+        result: fixed<16,6>
+        weight: fixed<9,3>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_4_linear:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_5:
+      Precision:
+        bias: fixed<9,3>
+        result: fixed<16,6>
+        weight: fixed<9,3>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_5_linear:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_6:
+      Precision:
+        bias: fixed<16,7>
+        result: fixed<16,6>
+        weight: fixed<16,7>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    Dense_6_linear:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    jetID_output:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    model_input:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    pT_output:
+      Precision:
+        bias: fixed<16,7>
+        result: fixed<16,6>
+        weight: fixed<16,7>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    pT_output_linear:
+      Precision:
+        result: fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    relu_1:
+      Precision:
+        result: ufixed<9,0,RND_CONV,SAT>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    relu_2:
+      Precision:
+        result: ufixed<9,0,RND_CONV,SAT>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    relu_3:
+      Precision:
+        result: ufixed<9,0,RND_CONV,SAT>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    relu_4:
+      Precision:
+        result: ufixed<9,0,RND_CONV,SAT>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+    relu_5:
+      Precision:
+        result: ufixed<9,0,RND_CONV,SAT>
+      ReuseFactor: 1
+      Strategy: Latency
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'hardwareII_COM/60_pruned/hls4ml_prj/keras_model.h5'
+OutputDir: hardwareII_COM/60_pruned/hls4ml_prj
+OutputPredictions: null
+Part: xcvu9p-flga2104-2L-e
+ProjectName: tau_nn
+Stamp: c9E26DEd
+Version: 1.0.0

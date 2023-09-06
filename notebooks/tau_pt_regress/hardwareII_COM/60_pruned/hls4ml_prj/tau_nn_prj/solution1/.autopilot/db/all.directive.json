@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "tau_nn",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/ofoo\/tau_nn_conversion\/hardwareII_COM\/60_pruned\/hls4ml_prj\/build_prj.tcl",
+          "sourceLine": "183",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "tau_nn"
+              }]
+          }
+        }]
+    }]}
