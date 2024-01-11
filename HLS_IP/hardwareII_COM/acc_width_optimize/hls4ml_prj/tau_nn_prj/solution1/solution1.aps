@@ -1,0 +1,24 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="tau_nn_prj"/>
+    </project>
+    <flowTarget value="vivado"/>
+    <config>
+        <config_interface m_axi_latency="0"/>
+        <config_compile name_max_length="80"/>
+        <config_schedule enable_dsp_full_reg="0"/>
+    </config>
+    <targetInfo>
+        <TargetInfo value="xcvu9p:-flga2104:-2L-e"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/virtexuplus/virtexuplus" name="DefaultPlatform"/>
+    </libraryList>
+    <clockList>
+        <clock default="false" name="default" uncertainty="12.5%" period="2.8"/>
+    </clockList>
+</AutoPilot:solution>
+

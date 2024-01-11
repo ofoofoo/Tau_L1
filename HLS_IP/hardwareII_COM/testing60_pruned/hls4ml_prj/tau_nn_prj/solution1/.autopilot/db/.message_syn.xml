@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Messages>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 1.458 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished File checks and directory preparation: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 1.470 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;firmware/tau_nn.cpp&apos; ..." resolution=""/>
 	<Message severity="WARNING" prefix="[HLS 207-5555]" key="HLS 207-5555" tag="" content="Unsupported interface port data type in &apos;#pragma HLS interface ap_vld&apos; (firmware/tau_nn.cpp:15:59)" resolution=""/>
 	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;keep&apos; (firmware/nnet_utils/nnet_helpers.h:285:99)" resolution=""/>
@@ -10,7 +10,7 @@
 	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;data&apos; (firmware/nnet_utils/nnet_code_gen.h:21:24)" resolution=""/>
 	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;buffer&apos; (firmware/nnet_utils/nnet_code_gen.h:22:24)" resolution=""/>
 	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;partition&apos; (firmware/nnet_utils/nnet_code_gen.h:23:32)" resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Source Code Analysis and Preprocessing: CPU user time: 11.39 seconds. CPU system time: 1.22 seconds. Elapsed time: 11 seconds; current allocated memory: 459.141 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Source Code Analysis and Preprocessing: CPU user time: 10.47 seconds. CPU system time: 0.77 seconds. Elapsed time: 10.87 seconds; current allocated memory: 472.004 MB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-777]" key="HLS 200-777" tag="" content="Using interface defaults for &apos;Vivado&apos; flow target." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 214-131]" key="HLS 214-131" tag="" content="Inlining function &apos;nnet::product::mult&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;9, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;9, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)&apos; into &apos;void nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;(ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config2::weight_t*, config2::bias_t*)&apos; (firmware/nnet_utils/nnet_dense_latency.h:42:27)" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 214-131]" key="HLS 214-131" tag="" content="Inlining function &apos;nnet::product::mult&lt;ap_ufixed&lt;9, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;9, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt; &gt;::product(ap_ufixed&lt;9, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;9, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)&apos; into &apos;void nnet::dense_latency&lt;ap_ufixed&lt;9, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config5&gt;(ap_ufixed&lt;9, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;*, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;*, config5::weight_t*, config5::bias_t*)&apos; (firmware/nnet_utils/nnet_dense_latency.h:42:27)" resolution=""/>
@@ -154,12 +154,12 @@
 	<Message severity="INFO" prefix="[HLS 214-241]" key="HLS 214-241" tag="" content="Aggregating scalar variable &apos;layer19_out&apos; with compact=bit mode in 16-bits (firmware/tau_nn.cpp:9:0)" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 214-241]" key="HLS 214-241" tag="" content="Aggregating bram variable &apos;model_input&apos; with compact=bit mode in 16-bits (firmware/tau_nn.cpp:9:0)" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 214-248]" key="HLS 214-248" tag="" content="Applying array_reshape to &apos;model_input&apos;: Complete reshaping on dimension 1. (firmware/tau_nn.cpp:9:0)" resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Compiling Optimization and Transform: CPU user time: 101.04 seconds. CPU system time: 1.32 seconds. Elapsed time: 102.59 seconds; current allocated memory: 459.141 MB." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Checking Pragmas: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 459.141 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Compiling Optimization and Transform: CPU user time: 102.86 seconds. CPU system time: 1.02 seconds. Elapsed time: 104.12 seconds; current allocated memory: 472.004 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 472.004 MB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1467" tag="" content="Starting code transformations ..." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Standard Transforms: CPU user time: 1.1 seconds. CPU system time: 0.1 seconds. Elapsed time: 1.2 seconds; current allocated memory: 587.141 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Standard Transforms: CPU user time: 1.09 seconds. CPU system time: 0.09 seconds. Elapsed time: 1.17 seconds; current allocated memory: 600.004 MB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1472" tag="" content="Checking synthesizability ..." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Checking Synthesizability: CPU user time: 1.63 seconds. CPU system time: 0.09 seconds. Elapsed time: 1.73 seconds; current allocated memory: 795.492 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Checking Synthesizability: CPU user time: 1.6 seconds. CPU system time: 0.08 seconds. Elapsed time: 1.7 seconds; current allocated memory: 795.492 MB." resolution=""/>
 	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:109:9) to (firmware/nnet_utils/nnet_activation.h:123:1) in function &apos;nnet::sigmoid&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, sigmoid_config19&gt;&apos;... converting 3 basic blocks." resolution=""/>
 	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:40:9) to (firmware/nnet_utils/nnet_activation.h:50:1) in function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;9, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config7&gt;&apos;... converting 101 basic blocks." resolution=""/>
 	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:40:9) to (firmware/nnet_utils/nnet_activation.h:50:1) in function &apos;nnet::relu&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;9, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, relu_config4&gt;&apos;... converting 101 basic blocks." resolution=""/>
@@ -173,8 +173,8 @@
 	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_ufixed&lt;9, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config14&gt;&apos; (firmware/nnet_utils/nnet_dense_latency.h:33:9)...40 expression(s) balanced." resolution=""/>
 	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_ufixed&lt;9, 0, (ap_q_mode)4, (ap_o_mode)0, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config11&gt;&apos; (firmware/nnet_utils/nnet_dense_latency.h:33:9)...78 expression(s) balanced." resolution=""/>
 	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;nnet::dense_latency&lt;ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 6, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, config2&gt;&apos; (firmware/nnet_utils/nnet_dense_latency.h:33:1)...795 expression(s) balanced." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Loop, function and other optimizations: CPU user time: 2.81 seconds. CPU system time: 0.13 seconds. Elapsed time: 2.95 seconds; current allocated memory: 1019.496 MB." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Architecture Synthesis: CPU user time: 2.39 seconds. CPU system time: 0.07 seconds. Elapsed time: 2.47 seconds; current allocated memory: 1.246 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Loop, function and other optimizations: CPU user time: 2.75 seconds. CPU system time: 0.15 seconds. Elapsed time: 2.9 seconds; current allocated memory: 1019.496 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Architecture Synthesis: CPU user time: 2.35 seconds. CPU system time: 0.06 seconds. Elapsed time: 2.41 seconds; current allocated memory: 1.246 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1317" tag="" content="Starting hardware synthesis ..." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1385" tag="" content="Synthesizing &apos;tau_nn&apos; ..." resolution=""/>
 	<Message severity="WARNING" prefix="[SYN 201-103]" key="SYN_MODULE_NAME_ILLEGAL_445" tag="" content="Legalizing function name &apos;dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;&apos; to &apos;dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s&apos;." resolution=""/>
@@ -197,14 +197,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 3, function &apos;dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config2&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 4.61 seconds. CPU system time: 0.07 seconds. Elapsed time: 4.69 seconds; current allocated memory: 1.246 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 4.62 seconds. CPU system time: 0.06 seconds. Elapsed time: 4.7 seconds; current allocated memory: 1.246 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 4.94 seconds. CPU system time: 0.04 seconds. Elapsed time: 5.11 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 4.96 seconds. CPU system time: 0.02 seconds. Elapsed time: 5 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config4_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -212,13 +212,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config4&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 1, function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config4&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 5.41 seconds. CPU system time: 0.02 seconds. Elapsed time: 5.43 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 5.39 seconds. CPU system time: 0.02 seconds. Elapsed time: 5.44 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.38 seconds. CPU system time: 0 seconds. Elapsed time: 0.39 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.39 seconds. CPU system time: 0 seconds. Elapsed time: 0.39 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config5_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -226,14 +226,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 2, function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config5&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 2.41 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.41 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 2.41 seconds. CPU system time: 0 seconds. Elapsed time: 2.43 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 1.28 seconds. CPU system time: 0 seconds. Elapsed time: 1.28 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 1.27 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.28 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config7_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -241,13 +241,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config7&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 1, function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config7&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 2.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.12 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 2.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 2.1 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.38 seconds. CPU system time: 0 seconds. Elapsed time: 0.39 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.38 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.38 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config8_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -255,14 +255,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 3, function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config8&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 1.8 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.82 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 1.82 seconds. CPU system time: 0 seconds. Elapsed time: 1.82 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.74 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.75 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.73 seconds. CPU system time: 0 seconds. Elapsed time: 0.74 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config10_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -270,13 +270,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config10&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 1, function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config10&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 1.29 seconds. CPU system time: 0 seconds. Elapsed time: 1.3 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 1.29 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.3 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.24 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.24 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.24 seconds. CPU system time: 0 seconds. Elapsed time: 0.24 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config11_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -284,7 +284,7 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 2, function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config11&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 1.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.09 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 1.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.1 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
@@ -299,13 +299,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config13&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 1, function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config13&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.78 seconds. CPU system time: 0 seconds. Elapsed time: 0.78 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.77 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.78 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.22 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.23 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.23 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -313,14 +313,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config14&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 2, function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config14&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.76 seconds. CPU system time: 0 seconds. Elapsed time: 0.77 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.77 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.77 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.22 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.21 seconds. CPU system time: 0 seconds. Elapsed time: 0.22 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config16_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -328,13 +328,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config16&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 1, function &apos;relu&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_ufixed&lt;9, 0, 4, 0, 0&gt;, relu_config16&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.41 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.41 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.4 seconds. CPU system time: 0 seconds. Elapsed time: 0.41 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.12 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config17_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -342,7 +342,7 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config17&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 2, function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config17&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.28 seconds. CPU system time: 0 seconds. Elapsed time: 0.28 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.28 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.29 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
@@ -357,7 +357,7 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;sigmoid&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, sigmoid_config19&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 3, function &apos;sigmoid&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, sigmoid_config19&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
@@ -371,14 +371,14 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config20&gt;&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 2, function &apos;dense_latency&lt;ap_ufixed&lt;9, 0, 4, 0, 0&gt;, ap_fixed&lt;16, 6, 5, 3, 0&gt;, config20&gt;&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_690" tag="" content="Starting global binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;tau_nn&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -386,13 +386,13 @@
 	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;tau_nn&apos;." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-1470]" key="HLS 200-1470" tag="SCHEDULE,VITIS_THROUGHPUT" content="Pipelining result : Target II = NA, Final II = 1, Depth = 23, function &apos;tau_nn&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.2 seconds. CPU system time: 0 seconds. Elapsed time: 0.2 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0.2 seconds. CPU system time: 0 seconds. Elapsed time: 0.21 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
 	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 3.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 3.15 seconds; current allocated memory: 1.308 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 3.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 3.13 seconds; current allocated memory: 1.308 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -406,12 +406,12 @@
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_16s_8ns_22_1_0&apos;: 2 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_16s_8s_22_1_0&apos;: 4 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_config2_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 10.23 seconds. CPU system time: 0.03 seconds. Elapsed time: 10.29 seconds; current allocated memory: 1.371 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 10.17 seconds. CPU system time: 0.03 seconds. Elapsed time: 10.21 seconds; current allocated memory: 1.371 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config4_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config4_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 13.38 seconds. CPU system time: 0.14 seconds. Elapsed time: 13.57 seconds; current allocated memory: 1.433 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 13.29 seconds. CPU system time: 0.14 seconds. Elapsed time: 13.47 seconds; current allocated memory: 1.433 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config5_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -424,12 +424,12 @@
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_8ns_16_1_0&apos;: 1 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_8s_17_1_0&apos;: 2 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config5_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 2.38 seconds. CPU system time: 0.02 seconds. Elapsed time: 2.4 seconds; current allocated memory: 1.433 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 2.35 seconds. CPU system time: 0.02 seconds. Elapsed time: 2.38 seconds; current allocated memory: 1.433 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config7_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config7_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 4.73 seconds. CPU system time: 0.06 seconds. Elapsed time: 4.8 seconds; current allocated memory: 1.433 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 4.7 seconds. CPU system time: 0.05 seconds. Elapsed time: 4.78 seconds; current allocated memory: 1.433 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config8_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -440,12 +440,12 @@
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_7ns_15_1_0&apos;: 6 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_7s_16_1_0&apos;: 5 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config8_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 2.27 seconds. CPU system time: 0.03 seconds. Elapsed time: 2.3 seconds; current allocated memory: 1.433 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 2.26 seconds. CPU system time: 0.02 seconds. Elapsed time: 2.29 seconds; current allocated memory: 1.433 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config10_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config10_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 2.94 seconds. CPU system time: 0.03 seconds. Elapsed time: 2.98 seconds; current allocated memory: 1.496 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 2.91 seconds. CPU system time: 0.04 seconds. Elapsed time: 2.96 seconds; current allocated memory: 1.496 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config11_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -456,12 +456,12 @@
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_7s_16_1_0&apos;: 5 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_8ns_16_1_0&apos;: 1 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config11_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 1.37 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.4 seconds; current allocated memory: 1.496 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 1.36 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.39 seconds; current allocated memory: 1.496 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config13_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 1.65 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.68 seconds; current allocated memory: 1.496 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 1.64 seconds. CPU system time: 0.02 seconds. Elapsed time: 1.67 seconds; current allocated memory: 1.496 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -470,12 +470,12 @@
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_7ns_15_1_0&apos;: 10 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_7s_16_1_0&apos;: 4 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config14_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 1.24 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.26 seconds; current allocated memory: 1.496 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 1.23 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.25 seconds; current allocated memory: 1.496 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config16_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config16_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0.88 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.9 seconds; current allocated memory: 1.496 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0.87 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.89 seconds; current allocated memory: 1.496 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config17_s&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -497,7 +497,7 @@
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_10s_19_1_0&apos;: 1 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_9ns_11ns_19_1_0&apos;: 2 instance(s)." resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dense_latency_ap_ufixed_9_0_4_0_0_ap_fixed_16_6_5_3_0_config20_s&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.23 seconds; current allocated memory: 1.496 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.22 seconds; current allocated memory: 1.496 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;tau_nn&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
@@ -508,12 +508,12 @@
 	<Message severity="INFO" prefix="[HLS 200-1030]" key="HLS 200-1030" tag="" content="Apply Unified Pipeline Control on module &apos;tau_nn&apos; pipeline &apos;tau_nn&apos; pipeline type &apos;function pipeline&apos;" resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-104]" key="RTGEN_104_852" tag="" content="Estimated max fanout for &apos;tau_nn&apos; is 11490 from HDL expression: ((1&apos;b1 == ap_CS_fsm_pp0_stage0) &amp; (1&apos;b0 == ap_block_pp0_stage0_11001_ignoreCallOp25))" resolution=""/>
 	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;tau_nn&apos;." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0.31 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.32 seconds; current allocated memory: 1.496 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0.31 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.31 seconds; current allocated memory: 1.496 GB." resolution=""/>
 	<Message severity="INFO" prefix="[RTMG 210-279]" key="RTMG_279_1793" tag="" content="Implementing memory &apos;tau_nn_sigmoid_ap_fixed_16_6_5_3_0_ap_fixed_16_6_5_3_0_sigmoid_config19_s_sigmoid_tabkb&apos; using auto ROMs." resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Generating all RTL models: CPU user time: 15.56 seconds. CPU system time: 0.08 seconds. Elapsed time: 15.68 seconds; current allocated memory: 1.496 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Generating all RTL models: CPU user time: 15.47 seconds. CPU system time: 0.06 seconds. Elapsed time: 15.57 seconds; current allocated memory: 1.496 GB." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Updating report files: CPU user time: 1.13 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.17 seconds; current allocated memory: 1.558 GB." resolution=""/>
 	<Message severity="INFO" prefix="[VHDL 208-304]" key="VHDL_304_1066" tag="" content="Generating VHDL RTL for tau_nn." resolution=""/>
 	<Message severity="INFO" prefix="[VLOG 209-307]" key="VLOG_307_1067" tag="" content="Generating Verilog RTL for tau_nn." resolution=""/>
 	<Message severity="INFO" prefix="[HLS 200-789]" key="HLS 200-789" tag="THROUGHPUT,VITIS_KERNEL" content="**** Estimated Fmax: 415.21 MHz" resolution=""/>
-	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Command csynth_design CPU user time: 213.23 seconds. CPU system time: 3.7 seconds. Elapsed time: 215.96 seconds; current allocated memory: 102.699 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Command csynth_design CPU user time: 213.53 seconds. CPU system time: 2.9 seconds. Elapsed time: 216.61 seconds; current allocated memory: 89.836 MB." resolution=""/>
 </Messages>

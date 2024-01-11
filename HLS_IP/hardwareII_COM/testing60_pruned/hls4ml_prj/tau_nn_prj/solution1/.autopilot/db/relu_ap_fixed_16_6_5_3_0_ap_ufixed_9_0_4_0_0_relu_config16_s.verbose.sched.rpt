@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'relu_ap_fixed_16_6_5_3_0_ap_ufixed_9_0_4_0_0_relu_config16_s'
 ================================================================
-* Date:           Sat Nov 18 16:01:16 2023
+* Date:           Mon Jan  8 23:22:30 2024
 
 * Version:        2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)
 * Project:        tau_nn_prj
@@ -217,7 +217,6 @@ Target clock period: 2.8ns, clock uncertainty: 0.35ns.
  <State 1>: 1.32ns
 The critical path consists of the following:
 	wire read operation ('p_read11', firmware/nnet_utils/nnet_activation.h:40) on port 'p_read1' (firmware/nnet_utils/nnet_activation.h:40) [14]  (0 ns)
-	'and' operation ('qb') [27]  (0 ns)
 	'add' operation ('__Val2__') [29]  (0.715 ns)
 	'select' operation ('select_ln348') [36]  (0.303 ns)
 	'select' operation ('select_ln1695') [37]  (0.303 ns)

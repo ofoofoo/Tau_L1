@@ -1,4 +1,9 @@
 <AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <config>
+        <config_interface m_axi_latency="0"/>
+        <config_compile name_max_length="80" complex-mul-dsp="0"/>
+        <config_schedule enable_dsp_full_reg="0"/>
+    </config>
     <name>
         <value string="solution1"/>
     </name>
@@ -6,11 +11,6 @@
         <value string="tau_nn_prj"/>
     </project>
     <flowTarget value="vivado"/>
-    <config>
-        <config_interface m_axi_latency="0"/>
-        <config_compile name_max_length="80"/>
-        <config_schedule enable_dsp_full_reg="0"/>
-    </config>
     <targetInfo>
         <TargetInfo value="xcvu9p:-flga2104:-2L-e"/>
     </targetInfo>
